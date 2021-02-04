@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.contact {
+    background: url(../images/ba.jpg) no-repeat center;
+    background-size: cover;
+    padding: 93px 0;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #dddddd;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 41px auto; 
+}
+
+.cform {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.cftext {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111111;
+    padding: 20px 40px;
+    outline: none;
+    color: #dddddd;
+}
+
+.cftext:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+.area {
+    resize: none;
+    height: 120px;
+}
+
+.cfbutton {
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #ffffff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cfbutton:hover {
+    background: #2980b9;
+}
